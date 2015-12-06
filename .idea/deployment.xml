@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/IgorKvjava/hibernet.git" uploadOnCheckin="e65ba0a6-26ea-4054-85a1-d725758af262">
+    <serverData>
+      <paths name="https://github.com/IgorKvjava/hibernet.git">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/IgorKvjava/hibernet.git" />
+  </component>
+</project>

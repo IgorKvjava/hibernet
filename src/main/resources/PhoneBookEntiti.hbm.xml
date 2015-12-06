@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ua.dbase.entitis.PhoneBookEntiti" table="phone_book" schema="phonebase" >
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="idUser">
+            <column name="id_user" sql-type="int(11)"/>
+        </property>
+        <property name="suname">
+            <column name="suname" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="fistName">
+            <column name="fist_name" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="middleName">
+            <column name="middle_name" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="phoneMobile">
+            <column name="phone_mobile" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="phoneHome">
+            <column name="phone_home" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="address">
+            <column name="address" sql-type="varchar(50)" length="50" not-null="true"/>
+        </property>
+        <property name="eMail">
+            <column name="e_mail" sql-type="varchar(50)" length="50" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
